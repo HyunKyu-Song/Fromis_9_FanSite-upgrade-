@@ -1,0 +1,43 @@
+@charset "UTF-8";
+.body-container {
+  width: 100vw;
+  overflow-x: hidden;
+  height: 100vh;
+  margin: auto;
+  background-image: url(./배경사진.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+body {
+  margin: 0;
+}
+
+.symbol {
+  width: 40px;
+  border-radius: 10px;
+}
+
+.nav-bg {
+  background-color: rgba(144, 250, 250, 0.9);
+}
+
+.navbar-nav a {
+  font-weight: bold;
+  color: black;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background-color: rgba(144, 250, 250, 0.9);
+  width: 100%;
+  height: 40px;
+  padding-top: 6px;
+  padding-right: 10px;
+  font-size: 15px;
+  text-align: right;
+}/*# sourceMappingURL=main.css.map */

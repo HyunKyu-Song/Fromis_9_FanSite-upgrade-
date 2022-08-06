@@ -1,0 +1,27 @@
+main{
+  position: relative;
+}
+
+.intro{
+  opacity: 0.9;
+  position: absolute;
+  padding: 10px;
+  width: 80%;
+  /* border: 2px solid; */
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 10px solid;
+  border-image: linear-gradient(to right, #fbfcb9be, #ffcdf3aa, #65d3ffaa);
+  border-image-slice: 1 fill;
+  text-align: center;
+  top: 70%;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.intro:hover{
+  transform: scale(1.2);
+  transition-duration: 1s;
+}

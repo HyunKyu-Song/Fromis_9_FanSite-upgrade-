@@ -30,12 +30,6 @@ main p {
 }
 .explain h3 a {
   text-decoration: none;
-  font-size: 15px;
-  font-weight: 600;
-  color: black;
-  border: 2px solid;
-  border-radius: 50%;
-  padding: 5px;
 }
 .explain h4 {
   font-weight: bold;

@@ -32,6 +32,9 @@ main {
   -o-border-image: linear-gradient(to right, rgba(244, 196, 73, 0.8588235294), rgba(243, 140, 219, 0.6666666667), rgba(36, 191, 252, 0.6666666667));
      border-image: linear-gradient(to right, rgba(244, 196, 73, 0.8588235294), rgba(243, 140, 219, 0.6666666667), rgba(36, 191, 252, 0.6666666667));
   border-image-slice: 1;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 .main-container h3 {
   font-weight: 400;
@@ -41,8 +44,8 @@ main {
   font-size: 20px;
 }
 
-#myImg:hover {
-  opacity: 0.7;
+.mem_img:hover {
+  opacity: 0.9;
 }
 
 /* The Modal (background) */

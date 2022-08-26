@@ -1,10 +1,41 @@
-main {
+/* main {
    position: relative;
+} */
+
+body{
+   overflow-x: hidden;
+}
+
+.hidden{
+   background-color: coral;
+   opacity: 0.9;
+}
+
+.text{
+   background-color: coral;
+   opacity: 0.9;
+}
+
+.body-container {
+   height: 10000px;
+   background-image: url(./배경사진.jpg);
+   background-size:contain;
+}
+
+.grid-container{
+   position: relative;
+   height: 100%;
+   /* background-color: coral; */
+}
+
+.main-mv{
+   position: fixed;
+   margin-top: 10%;
+   margin-left: 50px;
 }
 
 iframe {
-   position: absolute;
-   
+   /* position: absolute; */
    /* margin: 10px; */
    border: 5px black solid;
    border-radius: 30px;

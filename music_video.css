@@ -1,42 +1,61 @@
-/* main {
-   position: relative;
-} */
-
-body{
+body {
    overflow-x: hidden;
 }
 
-.hidden{
-   background-color: coral;
+.hidden {
+   /* background-color: coral; */
    opacity: 0.9;
+   display: none;
 }
 
-.text{
-   background-color: coral;
+.text {
+   /* background-color: coral; */
    opacity: 0.9;
+   padding: 50px;
 }
 
-.body-container {
+.ly_text{
+   background-color: #eee;
+   overflow-y: scroll;
+   height: 300px;
+   padding: 40px;
+   border-radius: 5px;
+   line-height: 25px;
+   word-break:keep-all;
+   text-align: center;
+   /* word-wrap: break-word; */
+}
+
+.play-list {
+   text-align: center;
+   height: 200px;
+   overflow-y: scroll;
+   /* margin-right: 30px; */
+}
+
+/* .body-container {
    height: 10000px;
    background-image: url(./배경사진.jpg);
-   background-size:contain;
-}
+   background-size: contain;
+} */
 
-.grid-container{
-   position: relative;
+.grid-container {
+   /* position: relative; */
    height: 100%;
    /* background-color: coral; */
 }
 
-.main-mv{
+.main-mv {
    position: fixed;
    margin-top: 10%;
-   margin-left: 50px;
+   margin-left: 10%;
+   display: none;
 }
 
 iframe {
-   /* position: absolute; */
-   /* margin: 10px; */
-   border: 5px black solid;
-   border-radius: 30px;
+   border-radius: 10px;
+}
+
+.mv-change{
+   margin: auto;
 }

@@ -1,0 +1,32 @@
+main{
+  position: relative;
+}
+
+.member-img{
+  margin: auto;
+  /* width: 95%;
+  margin-top: 5%; */
+  width: 60%;
+  padding-top: 40px;
+  position: absolute;
+  /* margin-bottom: 50%; */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.mem-img{
+  width: 100%;
+  
+}
+
+
+@media screen and (max-width: 768px){
+  .member-img{
+    
+    width: 95%;
+    margin-top: 5%;
+    
+  }
+}

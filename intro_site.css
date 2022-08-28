@@ -1,6 +1,6 @@
-main{
+/* main{
   position: relative;
-}
+} */
 
 .intro{
   font-size: 20px;
@@ -18,14 +18,20 @@ main{
   display: none;
 }
 
+.greet:hover{
+  transform: scale(1.03);
+  color: rgb(253, 100, 45);
+  transition-duration: 0.5s;
+}
+
 .mv{
   border-radius: 20px;
 }
 
 @media screen and (max-width: 768px){
   .mv{
-    width: 450px;
-    height: 250px;
+    width: 80%;
+    /* height: 250px; */
   }
   .intro{
     font-size: 15px;

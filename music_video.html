@@ -100,6 +100,10 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
         </div> -->
+        <div class="hov">
+          <i style="display: none;" class="up-btn fa-solid fa-angles-up"></i>
+          <i class="down-btn fa-solid fa-angles-down"></i>
+        </div>
 
         <div class="Album album1">
           <div class="list-group text col-6">
@@ -123,9 +127,6 @@
               <button value="off" type="button" class="list-btn list-group-item list-group-item-action">미니 5집 《from our Memento Box》</button>
             </div>
             <button class="mv-change w-25 my-4 btn btn-primary" value="on">Title MV 보기</button>
-          </div>
-          <div class="hov">
-            <i class="down-btn fa-solid fa-angles-down"></i>
           </div>
         </div>
         
@@ -187,28 +188,92 @@
         </div>
 
         <div class="Album album3">
-          <img src="./Special Single Album [Talk & Talk].png" alt="">
+          <div class="list-group text col-6">
+            <div class="ly_text">
+              <p></p>
+            </div>
+            <div class="play-list">
+              <button value="off" type="button" class="list-btn list-group-item list-group-item-action">디지털 싱글 〈fromis_9 PRE-DEBUT SINGLE〉</button>
+            </div>
+            <button class="mv-change w-25 my-4 btn btn-primary" value="on">Title MV 보기</button>
+          </div>
         </div>
         <div class="Album album4">
-          <img src="./The 2nd Single Album [9 WAY TICKET].jpg" alt="">
+          <div class="list-group text col-6">
+            <div class="ly_text">
+              <p></p>
+            </div>
+            <div class="play-list">
+              <button value="off" type="button" class="list-btn list-group-item list-group-item-action">디지털 싱글 〈fromis_9 PRE-DEBUT SINGLE〉</button>
+            </div>
+            <button class="mv-change w-25 my-4 btn btn-primary" value="on">Title MV 보기</button>
+          </div>
         </div>
         <div class="Album album5">
-          <img src="./The 3rd Mini Album [My Little Society].jpg" alt="">
+          <div class="list-group text col-6">
+            <div class="ly_text">
+              <p></p>
+            </div>
+            <div class="play-list">
+              <button value="off" type="button" class="list-btn list-group-item list-group-item-action">디지털 싱글 〈fromis_9 PRE-DEBUT SINGLE〉</button>
+            </div>
+            <button class="mv-change w-25 my-4 btn btn-primary" value="on">Title MV 보기</button>
+          </div>
         </div>
         <div class="Album album6">
-          <img src="./The 1st Single Album [FUN FACTORY].jpg" alt="">
+          <div class="list-group text col-6">
+            <div class="ly_text">
+              <p></p>
+            </div>
+            <div class="play-list">
+              <button value="off" type="button" class="list-btn list-group-item list-group-item-action">디지털 싱글 〈fromis_9 PRE-DEBUT SINGLE〉</button>
+            </div>
+            <button class="mv-change w-25 my-4 btn btn-primary" value="on">Title MV 보기</button>
+          </div>
         </div>
         <div class="Album album7">
-          <img src="./Special Single Album [From.9].jpg" alt="">
+          <div class="list-group text col-6">
+            <div class="ly_text">
+              <p></p>
+            </div>
+            <div class="play-list">
+              <button value="off" type="button" class="list-btn list-group-item list-group-item-action">디지털 싱글 〈fromis_9 PRE-DEBUT SINGLE〉</button>
+            </div>
+            <button class="mv-change w-25 my-4 btn btn-primary" value="on">Title MV 보기</button>
+          </div>
         </div>
         <div class="Album album8">
-          <img src="./The 2nd Mini Album [To. Day].jpg" alt="">
+          <div class="list-group text col-6">
+            <div class="ly_text">
+              <p></p>
+            </div>
+            <div class="play-list">
+              <button value="off" type="button" class="list-btn list-group-item list-group-item-action">디지털 싱글 〈fromis_9 PRE-DEBUT SINGLE〉</button>
+            </div>
+            <button class="mv-change w-25 my-4 btn btn-primary" value="on">Title MV 보기</button>
+          </div>
         </div>
         <div class="Album album9">
-          <img src="./The 1st Mini Album [To. Heart].jpg" alt="">
+          <div class="list-group text col-6">
+            <div class="ly_text">
+              <p></p>
+            </div>
+            <div class="play-list">
+              <button value="off" type="button" class="list-btn list-group-item list-group-item-action">디지털 싱글 〈fromis_9 PRE-DEBUT SINGLE〉</button>
+            </div>
+            <button class="mv-change w-25 my-4 btn btn-primary" value="on">Title MV 보기</button>
+          </div>
         </div>
         <div class="Album album10">
-          <img src="./Pre-debut Single [유리구두].jpg" alt="">
+          <div class="list-group text col-6">
+            <div class="ly_text">
+              <p></p>
+            </div>
+            <div class="play-list">
+              <button value="off" type="button" class="list-btn list-group-item list-group-item-action">디지털 싱글 〈fromis_9 PRE-DEBUT SINGLE〉</button>
+            </div>
+            <button class="mv-change w-25 my-4 btn btn-primary" value="on">Title MV 보기</button>
+          </div>
         </div>
         
 
@@ -227,56 +292,64 @@
   src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
     </script>
+    
   <script>
-    // $('.Album').click(function(e){
-    //   console.log(e.target);
-      
-    // })
-    var cnt = 0;
-    var h = 1100;
-    $('.down-btn').click(function(e){
-      console.log(`cnt = ${cnt}`);
+    $('.Album').click(function(e){
       console.log(e.target);
-      if(cnt == 0){
-        window.scrollTo(0, 80);
-      }
-      if(cnt == 1){
-        window.scrollTo(80, 1100);
-      }
-      if(cnt == 2){
-        window.scrollTo(1100, 2120);
-      }
-      if(cnt == 3){
-        window.scrollTo(2120, 3140);
-      }
-      if(cnt == 4){
-        window.scrollTo(3140, 4160);
-      }
-      if(cnt == 5){
-        window.scrollTo(4160, 5180);
-      }
-      if(cnt == 6){
-        window.scrollTo(5180, 6200);
-      }
-      if(cnt == 7){
-        window.scrollTo(6200, 7220);
-      }
-      if(cnt == 8){
-        window.scrollTo(7220, 8240);
-      }
-      if(cnt == 9){
-        window.scrollTo(8240, 9260);
-      }
-      cnt++;
+      $(e.target).css('background-image', 'none');
+      $('.list-group').css('display', 'block');
+      $('.list-group').addClass('col-10');
     })
 
-    $(window).on('scroll', function(){
-      console.log($(window).scrollTop());
-    })
+    var cnt = 0;
+    var x;
+    var y = 1100;
+
+    $('.down-btn').click(function(e){
+      if(cnt == 11){
+        ;
+      }
+      else{
+        cnt++;
+        if(cnt == 1){
+          window.scrollTo(0, 80);
+          $('.up-btn').css('display', 'block');
+        }
+        else if(cnt == 2){
+          x = 80;
+          y = 1100;
+          window.scrollTo(x, y);
+        }
+        else{
+          x = y;
+          y += 1020;
+          window.scrollTo(x, y);
+        }
+      }
+    });
+
+    $('.up-btn').click(function(e){
+      cnt--;
+      if(cnt == 0){
+        window.scrollTo(0, 0);
+        $('.up-btn').css('display', 'none');
+      }
+      else if(cnt == 1){
+        x = 0;
+        y = 80;
+        window.scrollTo(x, y);
+      }
+      else{
+        x -= 1020;
+        y -= 1020;
+        window.scrollTo(x, y);
+        // console.log(cnt);
+      }
+    });
 
     $('.list-btn').on('click', function (e) {
-      console.log(e.target);
-      console.log($(this).val());
+      // console.log(e.target);
+      // console.log($(this).val());
       if ($(this).val() == 'off') {
         $(e.target).css('background-color', 'orange');
         $(this).val('on');

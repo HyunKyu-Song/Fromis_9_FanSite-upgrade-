@@ -31,7 +31,6 @@
                   Introduce
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="intro_site.html">사이트</a></li>
                   <li><a class="dropdown-item" href="intro_group.html">그룹</a></li>
                   <li><a class="dropdown-item" href="intro_member.html">멤버</a></li>
                 </ul>
@@ -52,8 +51,7 @@
                   Award
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="music_broadcasting.html">음악방송</a></li>
-                  <li><a class="dropdown-item" href="awards.html">시상식</a></li>
+                  <li><a class="dropdown-item" href="awards.html">음악방송 & 시상식</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -62,9 +60,7 @@
                   Discograpy
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="album_single.html">싱글 앨범</a></li>
-                  <li><a class="dropdown-item" href="album_mini.html">미니 앨범</a></li>
-                  <li><a class="dropdown-item" href="album_participate.html">참여 음반</a></li>
+                  <li><a class="dropdown-item" href="./album.html">앨범</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -118,28 +114,26 @@
   </div>
 
 
-  <script 
-  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
     </script>
-  <script 
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
     </script>
   <script>
-    for(var i = 5; i < 14; i++){
-      var ImgItem = 
+    for (var i = 5; i < 14; i++) {
+      var ImgItem =
         `<div class="carousel-item">
           <img src="./단체${i}.jpeg" class="d-block mem-img" alt="...">
         </div>`
       $('.carousel-inner').append(ImgItem);
     }
 
-    for(var i = 0; i < 10; i++){
-      var ImgBtn = `<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="${i}"  class="active" aria-current="true" aria-label="Slide ${i+1}"></button>`
+    for (var i = 0; i < 10; i++) {
+      var ImgBtn = `<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="${i}"  class="active" aria-current="true" aria-label="Slide ${i + 1}"></button>`
       $('.carousel-indicators').append(ImgBtn);
     }
-    
+
 
   </script>
 </body>

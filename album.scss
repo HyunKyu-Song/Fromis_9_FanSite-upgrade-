@@ -1,0 +1,192 @@
+body {
+   overflow-x: hidden;
+   overflow-y: hidden;
+}
+
+.up-btn {
+   z-index: 3;
+   text-align: center;
+   width: 100%;
+   height: 30px;
+   background-color: rgba(238, 238, 238, 0.7);
+   padding-top: 5px;
+   position: fixed;
+   top: 0;
+}
+
+.down-btn {
+   z-index: 3;
+   text-align: center;
+   width: 100%;
+   height: 30px;
+   background-color: rgba(238, 238, 238, 0.7);
+   padding-top: 5px;
+   position: fixed;
+   bottom: 0;
+}
+
+.hov :hover {
+   background-color: rgba(0, 0, 0, 0.7);
+   color: white;
+}
+
+.body-container {
+   border-image: linear-gradient(to right, #fbfcb9be, #ffcdf3aa, #65d3ffaa);
+   border-image-slice: 1 fill;
+   height: auto;
+   background-image: none;
+   /* border: 4px solid; */
+
+   footer {
+      padding-right: 30px;
+   }
+
+}
+
+.row {
+   flex-direction: column;
+}
+
+.hidden {
+   /* background-color: yellow; */
+   opacity: 0.9;
+   /* display: none; */
+}
+
+iframe {
+   border-radius: 10px;
+}
+
+.mv-change {
+   margin: auto;
+}
+
+
+
+.grid-container {
+   position: relative;
+   height: 10200px;
+   /* background-color: coral; */
+
+   .main-mv {
+      position: fixed;
+      margin-top: 10%;
+      margin-left: 10%;
+      /* margin-top: 20%;
+      margin-bottom: 50%; */
+
+      display: none;
+      z-index: 1;
+   }
+
+}
+
+.Album {
+   margin-top: 20px;
+   margin-bottom: 300px;
+   position: relative;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: left;
+   height: 700px;
+
+   .albumIntro{
+      display: none;
+   }
+
+   .text {
+      /* background-color: yellow; */
+      opacity: 0.9;
+      // padding: 50px;
+   }
+
+   img {
+      height: 700px;
+   }
+
+   .list-group {
+      height: 700px;
+      position: absolute;
+      right: 0;
+      margin: 40px;
+
+      .ly_text {
+         background-color: #eee;
+         overflow-y: scroll;
+         height: 300px;
+         padding: 40px;
+         border-radius: 5px;
+         line-height: 25px;
+         word-break: keep-all;
+         text-align: center;
+         opacity: 0.8;
+         /* word-wrap: break-word; */
+      }
+
+      .play-list {
+         text-align: center;
+         // height: 200px;
+         // overflow-y: scroll;
+         /* margin-right: 30px; */
+
+         .trackList{
+            background-color: rgb(254, 252, 254);
+            font-weight: bold;
+            font-size: larger;
+         }
+      }
+   }
+}
+
+.album1 {
+   background-image: url(./5th\ Mini\ Album\ [from\ our\ Memento\ Box].jpg);
+}
+.album2 {
+   background-image: url(./4th\ Mini\ Album\ [Midnight\ Guest].jpg);
+}
+.album3{
+   background-image: url(./Special\ Single\ Album\ [Talk\ &\ Talk].png);
+}
+.album4{
+   background-image: url(./The\ 2nd\ Single\ Album\ [9\ WAY\ TICKET].jpg);
+}
+.album5{
+   background-image: url(./The\ 3rd\ Mini\ Album\ [My\ Little\ Society].jpg);
+}
+.album6{
+   background-image: url(./The\ 1st\ Single\ Album\ [FUN\ FACTORY].jpg);
+}
+.album7{
+   background-image: url(./Special\ Single\ Album\ [From.9].jpg);
+}
+.album8{
+   background-image: url(./The\ 2nd\ Mini\ Album\ [To.\ Day].jpg);
+}
+.album9{
+   background-image: url(./The\ 1st\ Mini\ Album\ [To.\ Heart].jpg);
+}
+.album10{
+   background-image: url(./Pre-debut\ Single\ [유리구두].jpg);
+}
+
+@media screen and (max-width: 768px) {
+   .list-group{
+      display: none;
+      height: 700px;
+      position: absolute;
+      
+      margin: 60px;
+   }
+
+   .Album .albumIntro{
+      display: block;
+      position: absolute;
+      bottom: 10%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 100px;
+      opacity: 0.9;
+      z-index: 2;
+   }
+} 

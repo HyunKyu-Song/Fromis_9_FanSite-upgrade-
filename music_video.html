@@ -8,7 +8,7 @@
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
    <link rel="stylesheet" href="./main.css">
-   <link rel="stylesheet" href="./intro_site.css">
+   <link rel="stylesheet" href="./music_video.css">
    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -91,7 +91,32 @@
          </nav>
       </header>
       <main>
-
+         <div class="container main-bg mt-4 text-center">
+            <iframe class="mv m-4" src="https://www.youtube.com/embed/JC6budcACNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="txt">
+               <p class="artist">2022.06.27</p>
+               <p class="tit pb-3">fromis_9 (프로미스나인) 'Stay This Way' Official MV</p>
+            </div>
+         </div>
+         <div class="container sub-bg mb-4 text-center">
+            <ul>
+               <li class="thumb num1 m-4">
+                  <div class="txt pt-4">
+                     <p class="artist">2022.06.27</p>
+                     <p class="tit pb-3">fromis_9 (프로미스나인) 'Stay This Way' Official MV</p>
+                  </div>
+               </li>
+               <li class="thumb num2 m-4"></li>
+               <li class="thumb num3 m-4"></li>
+               <li class="thumb num4 m-4"></li>
+               <li class="thumb num5 m-4"></li>
+               <li class="thumb num6 m-4"></li>
+               <li class="thumb num7 m-4"></li>
+               <li class="thumb num8 m-4"></li>
+               <li class="thumb num9 m-4"></li>
+               <li class="thumb num10 m-4"></li>
+            </ul>
+         </div>
       </main>
       <footer>
          <p>copyright &copy; 2022 Song</p>
@@ -111,7 +136,19 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
 
       </script>
-
+   
+   <script>
+      $('.num1').click(function(){$('.mv').attr("src", "https://youtube.com/embed/JC6budcACNE")});
+      $('.num2').click(function(){$('.mv').attr("src", "https://www.youtube.com/embed/4gXmClk8rKI")});
+      $('.num3').click(function(){$('.mv').attr("src", "https://youtube.com/embed/BjmmvBMXbSU")});
+      $('.num4').click(function(){$('.mv').attr("src", "https://youtube.com/embed/HM6UpQZvbhY")});
+      $('.num5').click(function(){$('.mv').attr("src", "https://youtube.com/embed/jLmJhjCzOTw")});
+      $('.num6').click(function(){$('.mv').attr("src", "https://youtube.com/embed/zsRyyLtcXho")});
+      $('.num7').click(function(){$('.mv').attr("src", "https://youtube.com/embed/-SK6cvkK4c0")});
+      $('.num8').click(function(){$('.mv').attr("src", "https://youtube.com/embed/B3KuJqe3Epg")});
+      $('.num9').click(function(){$('.mv').attr("src", "https://youtube.com/embed/iFUHS1Ei7qw")});
+      $('.num10').click(function(){$('.mv').attr("src", "https://youtube.com/embed/n2TtQYuFfWw")});
+   </script>
 
 
 

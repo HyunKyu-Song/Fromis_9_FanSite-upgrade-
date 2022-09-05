@@ -23,6 +23,11 @@ body {
   height: 600px;
   overflow-y: scroll;
 }
+.sub-bg .txt {
+  margin-top: 25%;
+  font-weight: bold;
+  word-wrap: normal;
+}
 .sub-bg ul {
   list-style: none;
 }

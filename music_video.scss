@@ -25,6 +25,12 @@ body {
    height: 600px;
    overflow-y: scroll;
 
+   .txt{
+      margin-top: 25%;
+      font-weight: bold;
+      word-wrap:normal;
+   }
+
    ul{
       list-style: none;
       // display: inline-block;
